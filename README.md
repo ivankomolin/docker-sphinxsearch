@@ -3,6 +3,17 @@
 -	[`latest`, `3.1.1`](https://github.com/ivankomolin/docker-sphinxsearch/blob/master/fat/Dockerfile)
 - [`slim`, `3.1.1-slim`](https://github.com/ivankomolin/docker-sphinxsearch/blob/master/slim/Dockerfile)
 
+# Quick reference sphinxsearch
+
+- **Documentation**:  
+  [http://sphinxsearch.com/docs/](http://sphinxsearch.com/docs/)
+
+- **Community**:  
+  [http://sphinxsearch.com/community/](http://sphinxsearch.com/community/)
+
+- **Enterprise Support**:  
+  [http://sphinxsearch.com/services/support/](http://sphinxsearch.com/services/support/)
+
 # How to use this images
 
 ## Full image
