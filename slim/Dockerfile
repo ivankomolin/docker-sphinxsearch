@@ -11,8 +11,6 @@ RUN wget -q http://sphinxsearch.com/files/sphinx-${VERSION}-${REVISION}-linux-am
     mkdir -p /app/etc /app/data /app/logs && \
     ln -sf /dev/stdout /app/logs/*
 
-VOLUME ["/app/data", "/app/etc"]
-
 STOPSIGNAL SIGKILL
 
 CMD ["searchd", "--nodetach", "-c", "/app/etc/sphinx.conf"]
