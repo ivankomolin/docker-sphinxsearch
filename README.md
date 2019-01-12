@@ -1,7 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
--	[`latest`, `3.1.1`](https://github.com/ivankomolin/docker-sphinxsearch/blob/master/fat/Dockerfile)
-- [`slim`, `3.1.1-slim`](https://github.com/ivankomolin/docker-sphinxsearch/blob/master/slim/Dockerfile)
+- [`latest`, `3.1.1`](https://github.com/ivankomolin/docker-sphinxsearch/blob/master/fat/Dockerfile)
+- [`3.1.1-slim`](https://github.com/ivankomolin/docker-sphinxsearch/blob/master/slim/Dockerfile)
 
 # Quick reference sphinxsearch
 
@@ -84,7 +84,7 @@ For works indexer in database install need drivers
 
 Example Dockerfile with drivers for PostgreSQL:
 ```console
-FROM ivankomolin/sphinxsearch:slim
+FROM ivankomolin/sphinxsearch:3.1.1-slim
 
 RUN apk add --no-cache postgresql-dev
 ```
